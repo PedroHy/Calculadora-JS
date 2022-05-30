@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="borda">
+        <div>
+            <div id="tela">
+                <textarea name="numeros" id="numeros"></textarea>
+            </div>
+            <div id="buttons">
+                <button class="operacoes" id="apagar" onclick="apagar()">C</button>
+                <button class="operacoes" id="deletar" onclick="apagar()">CE</button>
+                <button class="operacoes" id="porcentagem" onclick="percent()">%</button>
+                <button class="operacoes" id="divisao" onclick="divisao()">/</button>
+
+                <button class="numeros" id="7" onclick="capturarSeven()">7</button>
+                <button class="numeros" id="8" onclick="capturarEight()">8</button>
+                <button class="numeros" id="9" onclick="capturarNine()">9</button>
+
+                <button class="operacoes" id="multiplicação" onclick="multiplicacao()">x</button>
+
+                <button class="numeros" id="4" onclick="capturarFour()">4</button>
+                <button class="numeros" id="5" onclick="capturarFive()">5</button>
+                <button class="numeros" id="6" onclick="capturarSix()">6</button>
+
+                <button class="operacoes" id="subtracao" onclick="subtracao()">-</button>
+
+                <button class="numeros" id="1" onclick="capturarOne()">1</button>
+                <button class="numeros" id="2" onclick="capturarTwo()">2</button>
+                <button class="numeros" id="3" onclick="capturarTree()">3</button>
+
+                <button class="operacoes" id="soma" onclick="soma()">+</button>
+
+                <button class="numeros" id="virgula" onclick="virgula()">,</button>
+                <button class="numeros" id="0" onclick="capturarZero()">0</button>
+                <button class="numeros" id="ponto" onclick="ponto()">.</button>
+                <button class="operacoes" id="igual" onclick="calcular()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="capturar-numeros.js"></script>
+</body>
+</html>
