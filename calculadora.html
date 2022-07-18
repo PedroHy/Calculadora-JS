@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <div id="borda">
@@ -15,37 +16,38 @@
                 <textarea name="numeros" id="numeros"></textarea>
             </div>
             <div id="buttons">
-                <button class="operacoes" id="apagar" onclick="apagar()">C</button>
-                <button class="operacoes" id="deletar" onclick="apagar()">CE</button>
-                <button class="operacoes" id="porcentagem" onclick="percent()">%</button>
-                <button class="operacoes" id="divisao" onclick="divisao()">/</button>
+                <button class="operacoes btts" id="18">C</button>
+                <button class="operacoes btts" id="17">CE</button>
+                <button class="operacoes btts" id="15">%</button>
+                <button class="operacoes btts" id="14">/</button>
 
-                <button class="numeros" id="7" onclick="capturarSeven()">7</button>
-                <button class="numeros" id="8" onclick="capturarEight()">8</button>
-                <button class="numeros" id="9" onclick="capturarNine()">9</button>
+                <button class="numeros btts" id="7">7</button>
+                <button class="numeros btts" id="8">8</button>
+                <button class="numeros btts" id="9" >9</button>
 
-                <button class="operacoes" id="multiplicação" onclick="multiplicacao()">x</button>
+                <button class="operacoes btts" id="13">x</button>
 
-                <button class="numeros" id="4" onclick="capturarFour()">4</button>
-                <button class="numeros" id="5" onclick="capturarFive()">5</button>
-                <button class="numeros" id="6" onclick="capturarSix()">6</button>
+                <button class="numeros btts" id="4">4</button>
+                <button class="numeros btts" id="5">5</button>
+                <button class="numeros btts" id="6">6</button>
 
-                <button class="operacoes" id="subtracao" onclick="subtracao()">-</button>
+                <button class="operacoes btts" id="12">-</button>
 
-                <button class="numeros" id="1" onclick="capturarOne()">1</button>
-                <button class="numeros" id="2" onclick="capturarTwo()">2</button>
-                <button class="numeros" id="3" onclick="capturarTree()">3</button>
+                <button class="numeros btts" id="1">1</button>
+                <button class="numeros btts" id="2">2</button>
+                <button class="numeros btts" id="3">3</button>
 
-                <button class="operacoes" id="soma" onclick="soma()">+</button>
+                <button class="operacoes btts" id="11">+</button>
 
-                <button class="numeros" id="virgula" onclick="virgula()">,</button>
-                <button class="numeros" id="0" onclick="capturarZero()">0</button>
-                <button class="numeros" id="ponto" onclick="ponto()">.</button>
-                <button class="operacoes" id="igual" onclick="calcular()">=</button>
+                <button class="operacoes btts" id="19">ON</button>
+                <button class="numeros btts" id="0">0</button>
+                <button class="numeros btts" id="10">.</button>
+                <button class="operacoes btts" id="16">=</button>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
-    <script src="capturar-numeros.js"></script>
+    <script src="script/calculate.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/interface.js"></script>
 </body>
 </html>
