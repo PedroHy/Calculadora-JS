@@ -1,0 +1,38 @@
+div#borda{
+    height: 30rem;
+    width: 20rem;
+    background: rgb(156, 156, 156);
+    margin: auto;
+    border-radius: 1rem;
+    padding: 2rem 1rem 2rem 2rem;
+}
+
+textarea#numeros{
+    background: black;
+    height: 6rem;
+    width: 19rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+div#buttons{
+    margin-top: 1rem;
+}
+
+button{
+    height: 4.2rem;
+    width: 4.2rem;
+    margin: .2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+button.operacoes{
+    background: rgb(74, 74, 230);
+    color: white;
+}
